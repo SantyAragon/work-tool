@@ -1,0 +1,323 @@
+strong {
+  font-weight: bold;
+}
+
+.button {
+  background-color: hsl(0deg, 0%, 95%);
+  background-image: linear-gradient(to bottom, hsl(0deg, 0%, 95%), hsl(0deg, 0%, 95%));
+  border: 1px solid hsl(0deg, 0%, 75%);
+  box-shadow: inset 0 1px 0 hsl(0deg, 67.7419354839%, 100%), inset 0 -1px 0 hsl(0deg, 0%, 85%), inset 0 0 0 1px hsl(0deg, 0%, 95%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: hsl(0deg, 0%, 55%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  /* padding: 9px 16px 9px; */
+  margin: 16px 0 0 16px;
+  transition: all 20ms ease-out;
+  vertical-align: top;
+}
+
+.button:hover,
+.button:focus {
+  background: hsl(0deg, 0%, 95%);
+  border-color: hsl(0deg, 0%, 55%);
+  box-shadow: inset 0 1px 0 hsl(0deg, 67.7419354839%, 100%), inset 0 -1px 0 hsl(0deg, 0%, 85%), inset 0 0 0 1px hsl(0deg, 0%, 95%);
+}
+
+.button:active {
+  background: hsl(0deg, 0%, 95%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button .fa {
+  color: hsl(0deg, 0%, 75%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-blue {
+  background-color: hsl(199deg, 74.1753726963%, 57.405%);
+  background-image: linear-gradient(to bottom, hsl(199deg, 74.1753726963%, 57.405%), hsl(199deg, 76.6181315762%, 52.955%));
+  border: 1px solid hsl(199deg, 83.4862385321%, 37.605%);
+  box-shadow: inset 0 1px 0 hsl(199deg, 96.1897504287%, 73.755%), inset 0 -1px 0 hsl(199deg, 68.0672268908%, 47.005%), inset 0 0 0 1px hsl(199deg, 71.1626687639%, 61.855%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-blue:hover,
+.button-blue:focus {
+  background: hsl(199deg, 76.6181315762%, 52.955%);
+  border-color: hsl(199deg, 100%, 21.805%);
+  box-shadow: inset 0 1px 0 hsl(199deg, 96.1897504287%, 73.755%), inset 0 -1px 0 hsl(199deg, 68.0672268908%, 47.005%), inset 0 0 0 1px hsl(199deg, 71.1626687639%, 61.855%);
+}
+
+.button-blue:active {
+  background: hsl(199deg, 76.6181315762%, 52.955%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-blue .fa {
+  color: hsl(199deg, 83.4862385321%, 37.605%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-green {
+  background-color: hsl(97deg, 45.652173913%, 63.2%);
+  background-image: linear-gradient(to bottom, hsl(97deg, 45.652173913%, 63.2%), hsl(97deg, 50.9803921569%, 59.2%));
+  border: 1px solid hsl(97deg, 44.9275362319%, 41.4%);
+  box-shadow: inset 0 1px 0 hsl(97deg, 49.7487437186%, 80.1%), inset 0 -1px 0 hsl(97deg, 37.7593360996%, 51.8%), inset 0 0 0 1px hsl(97deg, 39.0243902439%, 67.2%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-green:hover,
+.button-green:focus {
+  background: hsl(97deg, 50.9803921569%, 59.2%);
+  border-color: hsl(97deg, 69.4915254237%, 23.6%);
+  box-shadow: inset 0 1px 0 hsl(97deg, 49.7487437186%, 80.1%), inset 0 -1px 0 hsl(97deg, 37.7593360996%, 51.8%), inset 0 0 0 1px hsl(97deg, 39.0243902439%, 67.2%);
+}
+
+.button-green:active {
+  background: hsl(97deg, 50.9803921569%, 59.2%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-green .fa {
+  color: hsl(97deg, 44.9275362319%, 41.4%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-purple {
+  background-color: hsl(249deg, 31.4894696777%, 60.59%);
+  background-image: linear-gradient(to bottom, hsl(249deg, 31.4894696777%, 60.59%), hsl(249deg, 37.2967951695%, 56.94%));
+  border: 1px solid hsl(249deg, 36.9863013699%, 38.69%);
+  box-shadow: inset 0 1px 0 hsl(249deg, 25.4712845243%, 77.19%), inset 0 -1px 0 hsl(249deg, 28.2051282051%, 49.14%), inset 0 0 0 1px hsl(249deg, 24.4966442953%, 64.24%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-purple:hover,
+.button-purple:focus {
+  background: hsl(249deg, 37.2967951695%, 56.94%);
+  border-color: hsl(249deg, 58.7301587302%, 20.79%);
+  box-shadow: inset 0 1px 0 hsl(249deg, 25.4712845243%, 77.19%), inset 0 -1px 0 hsl(249deg, 28.2051282051%, 49.14%), inset 0 0 0 1px hsl(249deg, 24.4966442953%, 64.24%);
+}
+
+.button-purple:active {
+  background: hsl(249deg, 37.2967951695%, 56.94%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-purple .fa {
+  color: hsl(249deg, 36.9863013699%, 38.69%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-orange {
+  background-color: hsl(26deg, 90.234375%, 59.04%);
+  background-image: linear-gradient(to bottom, hsl(26deg, 90.234375%, 59.04%), hsl(26deg, 91.2587412587%, 54.24%));
+  border: 1px solid hsl(26deg, 94.1747572816%, 39.14%);
+  box-shadow: inset 0 1px 0 hsl(26deg, 100%, 75.79%), inset 0 -1px 0 hsl(26deg, 76.9911504425%, 48.59%), inset 0 0 0 1px hsl(26deg, 88.9380530973%, 63.84%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-orange:hover,
+.button-orange:focus {
+  background: hsl(26deg, 91.2587412587%, 54.24%);
+  border-color: hsl(26deg, 100%, 23.24%);
+  box-shadow: inset 0 1px 0 hsl(26deg, 100%, 75.79%), inset 0 -1px 0 hsl(26deg, 76.9911504425%, 48.59%), inset 0 0 0 1px hsl(26deg, 88.9380530973%, 63.84%);
+}
+
+.button-orange:active {
+  background: hsl(26deg, 91.2587412587%, 54.24%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-orange .fa {
+  color: hsl(26deg, 94.1747572816%, 39.14%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-red {
+  background-color: hsl(4deg, 79.3935825729%, 66.03%);
+  background-image: linear-gradient(to bottom, hsl(4deg, 79.3935825729%, 66.03%), hsl(4deg, 81.8746763335%, 61.38%));
+  border: 1px solid hsl(4deg, 63.9344262295%, 44.53%);
+  box-shadow: inset 0 1px 0 hsl(4deg, 100%, 83.43%), inset 0 -1px 0 hsl(4deg, 62.4060150376%, 54.78%), inset 0 0 0 1px hsl(4deg, 76.1255115962%, 70.68%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.button-red:hover,
+.button-red:focus {
+  background: hsl(4deg, 81.8746763335%, 61.38%);
+  border-color: hsl(4deg, 96.0784313725%, 27.03%);
+  box-shadow: inset 0 1px 0 hsl(4deg, 100%, 83.43%), inset 0 -1px 0 hsl(4deg, 62.4060150376%, 54.78%), inset 0 0 0 1px hsl(4deg, 76.1255115962%, 70.68%);
+}
+
+.button-red:active {
+  background: hsl(4deg, 81.8746763335%, 61.38%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-red .fa {
+  color: hsl(4deg, 63.9344262295%, 44.53%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button-yellow {
+  background-color: hsl(49deg, 96.3937973314%, 72.27%);
+  background-image: linear-gradient(to bottom, hsl(49deg, 96.3937973314%, 72.27%), hsl(49deg, 96.9400244798%, 67.32%));
+  border: 1px solid hsl(49deg, 58.7301587302%, 49.77%);
+  box-shadow: inset 0 1px 0 hsl(49deg, 100%, 90.47%), inset 0 -1px 0 hsl(49deg, 72.1377912867%, 60.52%), inset 0 0 0 1px hsl(49deg, 95.6101843723%, 77.22%), 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: hsl(49deg, 88.679245283%, 31.27%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.button-yellow:hover,
+.button-yellow:focus {
+  background: hsl(49deg, 96.9400244798%, 67.32%);
+  border-color: hsl(49deg, 88.679245283%, 31.27%);
+  box-shadow: inset 0 1px 0 hsl(49deg, 100%, 90.47%), inset 0 -1px 0 hsl(49deg, 72.1377912867%, 60.52%), inset 0 0 0 1px hsl(49deg, 95.6101843723%, 77.22%);
+}
+
+.button-yellow:active {
+  background: hsl(49deg, 96.9400244798%, 67.32%);
+  box-shadow: inset 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.button-yellow .fa {
+  color: hsl(49deg, 58.7301587302%, 49.77%);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button .fa {
+  float: left;
+  font-size: 14px;
+  line-height: 20px;
+  margin: -1px 8px 0 -4px;
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=styles.css.map */
+
+
+/* From uiverse.io by @abrahamcalsin */
+#create button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #3881e8;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+#create button:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #FFD401;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+#create button:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+#create button span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 18px 25px;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+#create button:hover span {
+  color: #183153;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.msg {
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  max-width: 100vw;
+}
+
+.delete-icon {
+  padding-right: 5px;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  align-items: center;
+}
+
+.mensaje:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1038%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%2332325d'%3e%3c/rect%3e%3ccircle r='16.665' cx='329.43' cy='249.45' fill='url(%23SvgjsLinearGradient1039)'%3e%3c/circle%3e%3ccircle r='35.67' cx='1166.04' cy='85.25' fill='url(%23SvgjsLinearGradient1040)'%3e%3c/circle%3e%3ccircle r='17.77' cx='1226.48' cy='132.99' fill='url(%23SvgjsLinearGradient1041)'%3e%3c/circle%3e%3ccircle r='45.22' cx='1211.07' cy='472.7' fill='url(%23SvgjsLinearGradient1042)'%3e%3c/circle%3e%3ccircle r='53.115' cx='1032.95' cy='501.68' fill='url(%23SvgjsLinearGradient1043)'%3e%3c/circle%3e%3ccircle r='35.98' cx='1167.52' cy='207.8' fill='url(%23SvgjsLinearGradient1044)'%3e%3c/circle%3e%3ccircle r='26.68' cx='102.38' cy='410.14' fill='url(%23SvgjsLinearGradient1045)'%3e%3c/circle%3e%3ccircle r='49.49' cx='954.54' cy='41.76' fill='url(%23SvgjsLinearGradient1046)'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1038'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3clinearGradient x1='296.1' y1='249.45' x2='362.76' y2='249.45' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1039'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1094.7' y1='85.25' x2='1237.38' y2='85.25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1040'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1190.94' y1='132.99' x2='1262.02' y2='132.99' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1041'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1120.6299999999999' y1='472.7' x2='1301.5099999999998' y2='472.7' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1042'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='926.72' y1='501.68' x2='1139.18' y2='501.68' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1043'%3e%3cstop stop-color='%2384b6e0' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23464a8f' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='1095.56' y1='207.8' x2='1239.48' y2='207.8' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1044'%3e%3cstop stop-color='%23f29b7c' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%237e6286' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='49.019999999999996' y1='410.14' x2='155.74' y2='410.14' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1045'%3e%3cstop stop-color='%2332325d' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23424488' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='855.56' y1='41.76' x2='1053.52' y2='41.76' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1046'%3e%3cstop stop-color='%23e298de' offset='0.1'%3e%3c/stop%3e%3cstop stop-color='%23484687' offset='0.9'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  padding: 2rem;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.form-sweet {
+  max-width: 100%;
+}
+
+.swal2-input {
+  max-width: 60%;
+  font-size: 1rem;
+}
+
+.button-create {
+  display: flex;
+  justify-content: center;
+}
