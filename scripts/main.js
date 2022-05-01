@@ -1,27 +1,18 @@
 Vue.createApp({
   data() {
     return {
-      message: 'Hello Vue!',
       mensajesEnStorage: [],
       mensajesGuardados: [],
-      mensaje: "",
-      titulo: "",
-      mensajesaguardar: [],
       mensajeCapturado: {},
     }
   },
-
   created() {
-
     //capturo lo que esta en localstorage
     this.mensajesEnStorage = JSON.parse(localStorage.getItem("mensajes"))
 
-    // si capturó algo, lo asigno en la propiedad productos en carrito y sumo su valor y cantidad
     if (this.mensajesEnStorage) {
       this.mensajesGuardados = this.mensajesEnStorage
     }
-
-    console.log(this.mensajesEnStorage)
   },
   methods: {
     crearMensaje() {
@@ -78,27 +69,10 @@ Vue.createApp({
           Swal.fire('Message not deleted', '', 'info')
         }
       })
-
-
-
-
     },
-    // editarMensaje() {
+    copiarMensaje(msg) {
 
-    //   let mensaje = {
-    //     titulo: document.querySelector("#tituloEditado").value,
-    //     mensaje: document.querySelector("#mensajeEditado").value,
-    //   }
-
-    //   console.log(mensaje)
-
-
-    // },
-
-    copiarMensaje(mensaje) {
-
-      var copyText = mensaje.mensaje;
-      console.log(copyText)
+      var copyText = msg.mensaje;
 
       navigator.clipboard.writeText(copyText);
 
@@ -111,7 +85,6 @@ Vue.createApp({
         width: 200,
       })
     },
-
   },
   computed: {},
 }).mount('#app')
